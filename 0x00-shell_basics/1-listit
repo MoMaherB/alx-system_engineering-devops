@@ -1,2 +1,5 @@
 #!/bin/bash/
-echo $(ls)
+ls ../script_dir=$(dirname "$0")
+
+# List the contents of the script directory
+ls "$script_dir"
