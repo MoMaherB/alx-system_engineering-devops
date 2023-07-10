@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Enter file name:"
+read file_name
+echo "#!/bin/bash" > ${file_name}
+chmod +x ${file_name}
