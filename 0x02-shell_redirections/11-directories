@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maindepth 1 -type d | wc -l
+find . -maindepth 1 -type d -name "*" | wc -l
