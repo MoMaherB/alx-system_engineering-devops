@@ -1,4 +1,0 @@
-#!/bin/bash
-git add .
-git commit -m "Networking basics_2"
-git push
