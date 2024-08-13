@@ -27,5 +27,5 @@ def number_of_subscribers(subreddit):
         return results.get("subscribers", 0)
     except requests.RequestException as e:
         # Catch all other requests exceptions
-        print(f"Error: {e}")
+        print("Error: {}".format(e))
         return 0
